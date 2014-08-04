@@ -14,6 +14,6 @@ z = linspace(-2,2,100)
 r = z**2 + 1
 x = r*sin(theta)
 y = r*cos(theta)
-ax.plot(x,y,z,label='parametric curve')
+ax.plot(x,y,z,label='parametric curve with a change 2')
 ax.legend()
 plt.show()
